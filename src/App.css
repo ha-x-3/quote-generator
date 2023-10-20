@@ -7,6 +7,8 @@
   align-items: center;
   justify-content: space-around;
   border-radius: 4px;
+  background-color: white;
+  padding: 30px;
 }
 
 .QuoteText {
@@ -16,17 +18,27 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  font-family: "Playpen Sans", "sans-serif";
+  font-size: 1.75em;
+}
+
+#author {
+  font-size: 0.75em;
+  align-self: flex-end;
 }
 
 .buttonBar {
   width: 100%;
   display: flex;
   justify-content: space-between;
-  padding: 30px;
 }
 
 .socialButtons {
   width: 25%;
   display: flex;
   gap: 15px;
+}
+
+small {
+  color: white;
 }

@@ -4,7 +4,7 @@ export default function Quote() {
 
       <div className="QuoteText">
         <p id="text">Placeholder for really awesome quote!</p>
-        <p id="author">-Famous Speak Gooder</p>        
+        <p id="author">-Author</p>        
       </div>
 
       <div className="buttonBar">
