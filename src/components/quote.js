@@ -3,7 +3,10 @@ export default function Quote() {
     <div className="QuoteBox" id="quote-box">
 
       <div className="QuoteText">
-        <p id="text">Placeholder for really awesome quote!</p>
+        <div id="text-line">
+          <img src="assets/images/quote.svg" height="50px" alt="Opening Quote"id="quoteImg"></img>
+          <p id="text">Placeholder for really awesome quote!</p>
+        </div>
         <p id="author">-Author</p>        
       </div>
 

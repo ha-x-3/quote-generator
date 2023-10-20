@@ -22,6 +22,14 @@
   font-size: 1.75em;
 }
 
+#text-line {
+  display: flex;
+}
+
+#quoteImg {
+  margin-top: -10px;
+}
+
 #author {
   font-size: 0.75em;
   align-self: flex-end;
