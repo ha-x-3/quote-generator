@@ -1,13 +1,15 @@
-export default function Quote() {
+
+
+const Quote = ({ quotes  }) => {
   return(
     <div className="QuoteBox" id="quote-box">
 
       <div className="QuoteText">
         <div id="text-line">
           <img src="assets/images/quote.svg" height="50px" alt="Opening Quote"id="quoteImg"></img>
-          <p id="text">Placeholder for really awesome quote!</p>
+          <div id="text">{quotes.text}</div>
         </div>
-        <p id="author">-Author</p>        
+        <div id="author">-{quotes.author}</div>        
       </div>
 
       <div className="buttonBar">
@@ -25,3 +27,5 @@ export default function Quote() {
     </div>
   );
 }
+
+export default Quote;
