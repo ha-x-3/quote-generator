@@ -13,7 +13,7 @@
 
 .QuoteText {
   min-height: 200px;
-  min-width: 300px;
+  width: 500px;
   display: flex;
   flex-direction: column;
   align-items: center;

@@ -20,11 +20,21 @@ function App() {
     getQuote();
   }, []);
 
+  window.addEventListener("load", function() {
+    let button = document.querySelector("button");
+
+    button.addEventListener("click", function() {
+      getQuote();
+    });
+  });
+
+  
+
   return (
     <div className="App container-fluid">
       <div className="wrapper">
         <Quote quotes={quotes}/>
-        <small>by ha-x-3 <a target="_blank" href="https://icons8.com/icon/61636/quote">Quote</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a></small>
+        <small>by ha-x-3 <a target="_blank" rel="noreferrer" href="https://icons8.com/icon/61636/quote">Quote</a> icon by <a target="_blank" rel="noreferrer" href="https://icons8.com">Icons8</a></small>
       </div>
     </div>
   );

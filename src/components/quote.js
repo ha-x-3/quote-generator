@@ -1,5 +1,3 @@
-
-
 const Quote = ({ quotes  }) => {
   return(
     <div className="QuoteBox" id="quote-box">
@@ -29,3 +27,4 @@ const Quote = ({ quotes  }) => {
 }
 
 export default Quote;
+
