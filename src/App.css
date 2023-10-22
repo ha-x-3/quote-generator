@@ -13,6 +13,7 @@
 
 .QuoteText {
   min-height: 200px;
+  max-height: 600px;
   width: 500px;
   display: flex;
   flex-direction: column;
@@ -20,6 +21,7 @@
   justify-content: center;
   font-family: "Playpen Sans", "sans-serif";
   font-size: 1.75em;
+  padding-bottom: 10px;
 }
 
 #text-line {
