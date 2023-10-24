@@ -64,7 +64,7 @@ function App() {
       facebookImg.style.backgroundColor = color;
     });
 
-    button.addEventListener("touchstart", function() {
+    button.addEventListener("touchend", function() {
       getQuote();
       getColor(colors);
       document.body.style.backgroundColor = color;
