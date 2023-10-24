@@ -28,6 +28,7 @@ function App() {
   }, []);
 
   let colors = [
+    '#343A40',
     '#16a085',
     '#27ae60',
     '#2c3e50',
@@ -58,10 +59,13 @@ function App() {
       document.body.style.backgroundColor = color;
       const button = document.querySelector("#new-quote");
       button.style.backgroundColor = color;
+      button.style.borderColor = color;
       const tweetImg = document.querySelector("#tweet-quote");
       const facebookImg = document.querySelector("#facebook-quote");
       tweetImg.style.backgroundColor = color;
+      tweetImg.style.borderColor = color;
       facebookImg.style.backgroundColor = color;
+      facebookImg.style.borderColor = color;
     });
 
     button.addEventListener("mousedown", function() {
@@ -70,10 +74,13 @@ function App() {
       document.body.style.backgroundColor = color;
       const button = document.querySelector("#new-quote");
       button.style.backgroundColor = color;
+      button.style.borderColor = color;
       const tweetImg = document.querySelector("#tweet-quote");
       const facebookImg = document.querySelector("#facebook-quote");
       tweetImg.style.backgroundColor = color;
+      tweetImg.style.borderColor = color;
       facebookImg.style.backgroundColor = color;
+      facebookImg.style.borderColor = color;
     });
   });
 
