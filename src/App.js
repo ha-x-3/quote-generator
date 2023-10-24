@@ -63,6 +63,18 @@ function App() {
       tweetImg.style.backgroundColor = color;
       facebookImg.style.backgroundColor = color;
     });
+
+    button.addEventListener("touchstart", function() {
+      getQuote();
+      getColor(colors);
+      document.body.style.backgroundColor = color;
+      const button = document.querySelector("#new-quote");
+      button.style.backgroundColor = color;
+      const tweetImg = document.querySelector("#tweet-quote");
+      const facebookImg = document.querySelector("#facebook-quote");
+      tweetImg.style.backgroundColor = color;
+      facebookImg.style.backgroundColor = color;
+    });
   });
 
   
